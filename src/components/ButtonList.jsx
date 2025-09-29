@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
-const list = ["All", "Gaming", "Cooking", "Cricket", "Soccer", "Live", "Valantines", "Songs","All", "Gaming", "Cooking", "Cricket", "Soccer", "Live", "Valantines", "Songs","All", "Gaming", "Cooking", "Cricket", "Soccer", "Live", "Valantines", "Songs"]
+const list = ["All", "Gaming", "Cooking", "Cricket", "Soccer", "Live", "Valantines", "Songs"]
 const ButtonList = () => {
   return (
     <div className='flex flex-wrap'>

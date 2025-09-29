@@ -21,4 +21,8 @@ If you are developing a production application, we recommend using TypeScript wi
   - video container
   - video card
 
+Debounsing (when typing in searching making multiple api call based on the key click)
+----------
+eg: in youtube the debouncing time is very less but in flipkart it is huge it take more time than youtube when search
+
  -->

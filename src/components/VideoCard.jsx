@@ -1,7 +1,6 @@
 import React from 'react'
 
 const VideoCard = ({info}) => {
-  console.log(info);
   const { snippet, statistics } = info;
   const { channelTitle, title, thumbnails } = snippet;
 
@@ -13,6 +12,14 @@ const VideoCard = ({info}) => {
         <li>{ channelTitle }</li>
         <li>{ statistics.viewCount }</li>
       </ul>
+    </div>
+  )
+};
+
+export const AdVideoCard = ({info}) => {
+  return (
+    <div className='p-1 m-1 border-red-900 bg-amber-700'>
+      <VideoCard info={info}/>
     </div>
   )
 }
